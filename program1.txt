@@ -1,0 +1,263 @@
+1.Arithematic operators:
+
+a=30
+
+b=5
+
+add=a+b
+
+sub=a-b
+
+mul=a*b
+
+div=a/b
+
+mod=a%b
+
+fd=a//b
+
+ex=a**b
+
+print("the addition is:",add)
+
+print("the substraction is:",sub)
+
+print("the multiplication is:",mul)
+
+print("the divison is:",div)
+
+print("the modulus division is:",mod)
+
+print("the floor divison is:",fd)
+
+print("the exponential is:",ex)
+
+Output:
+the addition is: 35
+
+the substraction is: 25
+
+the multiplication is: 150
+
+the divison is: 6.0
+
+the modulus division is: 0
+
+the floor divison is: 6
+
+the exponential is: 24300000
+
+
+2.Arithematic:
+
+a=int(input("enter first number:"))
+
+b=int(input("enter second number:"))
+
+sum=a+b
+
+sub=a-b
+
+mul=a*b
+
+div=a/b
+
+mod=a%b
+
+fd=a//b
+
+ex=a**b
+
+print("sum of a and b is:",sum)
+
+print("substraction is:",sub)
+
+print("multiplication is:",mul)
+
+print("divison is:",div)
+
+print("modulus divison is:",mod)
+
+print("floor divison is:",fd)
+
+print("exponential is:",ex)
+
+Output:
+
+enter first number:10
+
+enter second number:20
+
+sum of a and b is: 30
+
+substraction is: -10
+multiplication is: 200
+
+divison is: 0.5
+
+modulus divison is: 10
+
+floor divison is: 0
+
+exponential is: 100000000000000000000
+
+
+3.comparison operator:
+
+a=int(input("enter first number:"))
+
+b=int(input("enter second number:"))
+
+print("greater than:",a>b)
+
+print("less than:",a<b)
+
+print("greater than or equal to:",a>=b)
+
+print("less than or equal to:",a<=b)
+
+print("equals to:",a==b)
+
+Output:
+
+enter first number:10
+
+enter second number:15
+
+greater than: False
+
+less than: True
+
+greater than or equal to: False
+
+less than or equal to: True
+
+equals to: False
+
+
+4.Swapping:
+
+a=30
+
+b=40
+
+a=a+b
+
+b=a-b
+
+a=a-b
+
+print("the value of a after swapping:",a)
+
+print("the value of b after swapping:",b)
+
+Output:
+the value of a after swapping: 40
+
+the value of b after swapping: 30
+
+
+5.Area of triangle:
+
+a=int(input("enter first side:"))
+
+b=int(input("enter second side:"))
+
+c=int(input("enter third side:"))
+
+s=(a+b+c)/2
+
+area=(s*(s-a)*(s-b)*(s-c))
+
+print("the area of triangle is:",area)
+
+Output:
+
+enter first side:10
+
+enter second side:30
+
+enter third side:45
+
+the area of triangle is: -43164.0625
+
+6.Rectangle:
+
+length=12
+
+breadth=5
+
+area=length*breadth
+
+perimeter=2*(length+breadth)
+
+print("the area of rectangle is:",area)
+
+print("the perimeter of rectangle is:",perimeter)
+
+OUTPUT:
+
+the area of rectangle is: 60
+
+the perimeter of rectangle is: 34
+
+
+7.Radius:
+
+diameter=float(input("enter the diameter of the circle:"))
+
+radius=diameter/2
+
+print("the radius of the circle is:",radius)
+
+Output:
+
+enter the diameter of the circle:30
+
+the radius of the circle is: 15.0
+
+8.Address comparison:
+
+a=10
+
+b=20
+
+print(a is b)
+
+print(a is not b)
+
+print(id(a))
+
+print(id(b))
+
+Output:
+
+False
+
+True
+
+133067095955752
+
+133067095956072
+
+9.Minimum value:
+
+a=int(input("enter first number:"))
+
+b=int(input("enter second number:"))
+
+c=int(input("enter third number:"))
+
+min=a if a<b and a<c else b if b<c else c
+
+print("minimum value:",min)
+
+Output:
+
+enter first number:10
+
+enter second number:30
+
+enter third number:68
+
+minimum value: 10
