@@ -1,0 +1,91 @@
+1.write a python program to handle multiple exceptions?
+try:
+
+    num=int(input("enter a number:"))
+    
+    result=10/num
+ 
+   print("result:",result)
+
+    print("error:invalid input! please enter a valid number:")
+
+except zerodivisionerror:
+
+    print("error:division by zero!")
+output:
+enter a number:2
+
+result: 5.0
+2.write a python program to handle multiple expressions using else clause?
+try:
+ 
+   num=int(input("enter a number:"))
+ 
+   result=10/num
+
+except valueerror:
+
+    print("error:invalid input! please enter a valid number:")
+
+except zerodivisionerror:
+
+    print("error:division by zero!")
+
+else:
+
+    print("result:",result)
+output:
+enter a number:2
+
+result: 5.0
+
+3.write a python program to perform exceptions with final block?
+try:
+
+  file=open("myfile.txt","r")
+except io error:
+
+     print("error:unable to read the file!")
+
+finally:
+ 
+   file.close()
+OUTPUT:
+Traceback (most recent call last):
+
+  File "<main.py>", line 6, in <module>
+
+NameError: name 'file' is not defined
+
+
+4.write a python program to findout the given number is within range or not?
+try:
+
+    x=int(input("enter a number upto 100:"))
+
+    if x>100:
+  
+      raise valueError(x)
+
+except valueError as e:
+ 
+        print(x,"is out of allowed range")
+
+else:
+
+    print(x,"is within the allowed range")
+output:
+Enter a number up to 100: 123
+
+123 is out of allowed range
+
+5.write a python program for division zero error?
+try:
+
+    x=10/0
+
+except exception as e:
+ 
+       print("an error occured:",str(e))
+output:
+anError occured: division by zero
