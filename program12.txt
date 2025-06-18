@@ -6,7 +6,6 @@ class Cat(Animal):
     def sound(self):
         print("meow")
 
-1.
 class Dog(Animal):
     def sound(self):
         print("woof")
